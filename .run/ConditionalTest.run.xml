@@ -1,0 +1,22 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="ConditionalTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+    <module name="junitdemo" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="com.luv2code.junitdemo.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <option name="PACKAGE_NAME" value="com.luv2code.junitdemo" />
+    <option name="MAIN_CLASS_NAME" value="com.luv2code.junitdemo.ConditionalTest" />
+    <option name="METHOD_NAME" value="" />
+    <option name="TEST_OBJECT" value="class" />
+    <option name="VM_PARAMETERS" value="-ea -DLUV2CODE_SYS_PROP=CI_CD_DEPLOY" />
+    <envs>
+      <env name="LUV2CODE_ENV" value="DEV" />
+    </envs>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
